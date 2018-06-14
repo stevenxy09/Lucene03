@@ -33,7 +33,7 @@ public class SearchTest {
 	
 	@Before
 	public void setUp() throws Exception {
-		dir=FSDirectory.open(Paths.get("D://lucene4"));
+		dir=FSDirectory.open(Paths.get("D:\\lucene4"));
 		reader=DirectoryReader.open(dir);
 		is=new IndexSearcher(reader);
 	}
