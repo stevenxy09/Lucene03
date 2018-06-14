@@ -42,7 +42,6 @@ public class SearchTest {
 	public void tearDown() throws Exception {
 		reader.close();
 	}
-	
 	/**
 	 * 对特定项搜索
 	 */
